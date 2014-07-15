@@ -36,11 +36,15 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAsyncCommandDispatcher.cs" />
     <Compile Include="IAsyncCommandHandler.cs" />
+    <Compile Include="IAsyncQueryDispatcher.cs" />
     <Compile Include="IAsyncQueryHandler.cs" />
     <Compile Include="ICommand.cs" />
+    <Compile Include="ICommandDispatcher.cs" />
     <Compile Include="ICommandHandler.cs" />
     <Compile Include="IQuery.cs" />
+    <Compile Include="IQueryDispatcher.cs" />
     <Compile Include="IQueryHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

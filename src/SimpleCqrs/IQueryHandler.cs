@@ -10,7 +10,7 @@
         /// <summary>
         /// Performs the query and returns the result.
         /// </summary>
-        /// <param name="query">An object identitying the query while also providing state necessary for performing the query.</param>
+        /// <param name="query">The object identitying the query while also providing state necessary for performing the query.</param>
         /// <returns>The result of the query.</returns>
         TResult Query(TQuery query);
     }

@@ -12,7 +12,7 @@ namespace SimpleCqrs
         /// <summary>
         /// Performs the query asynchronously and returns the result.
         /// </summary>
-        /// <param name="query">An object identitying the query while also providing state necessary for performing the query.</param>
+        /// <param name="query">The object identitying the query while also providing state necessary for performing the query.</param>
         /// <returns>The task object representing the asynchronous query.</returns>
         Task<TResult> QueryAsync(TQuery query);
     }
